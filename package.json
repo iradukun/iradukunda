@@ -1,5 +1,12 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.1.5"
-  }
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.html",
+    "dev": "nodemon index.html",
+    "watch:js": "parcel watch ./index.html" ,
+    "build:js": "parcel build ./index.html "
+  },
 }
