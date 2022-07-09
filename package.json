@@ -8,5 +8,5 @@
     "dev": "nodemon index.html",
     "watch:js": "parcel watch ./index.html" ,
     "build:js": "parcel build ./index.html "
-  },
+  }
 }
